@@ -1,0 +1,16 @@
+PODS:
+  - vibondar2019 (0.1.0)
+
+DEPENDENCIES:
+  - vibondar2019 (from `../`)
+
+EXTERNAL SOURCES:
+  vibondar2019:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  vibondar2019: 2a8bf2dd69d9e0bd54e1162837f6dca2e878fe0b
+
+PODFILE CHECKSUM: 033278522914416a7d7043db77d78ebebfa53307
+
+COCOAPODS: 1.5.3

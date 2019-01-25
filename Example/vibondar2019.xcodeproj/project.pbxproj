@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B31F930ABB7911B7FF7B461 /* Pods_vibondar2019_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B164D0DDFB6D014059F6546 /* Pods_vibondar2019_Example.framework */; };
+		4931996921FB479C0034AA63 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4931996721FB479C0034AA63 /* article.xcdatamodeld */; };
 		5407A86B8DCE8E71B57DE54B /* Pods_vibondar2019_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2D199A71F660F60FAF7168 /* Pods_vibondar2019_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		02E071D12B5CD9444593501B /* Pods-vibondar2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibondar2019_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibondar2019_Tests/Pods-vibondar2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C0ED46460373106D6E478D3 /* Pods-vibondar2019_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibondar2019_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibondar2019_Tests/Pods-vibondar2019_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E2D199A71F660F60FAF7168 /* Pods_vibondar2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibondar2019_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4931996821FB479C0034AA63 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* vibondar2019_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibondar2019_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8B164D0DDFB6D014059F6546 /* Pods_vibondar2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibondar2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA32C77B0F6B98EC34ED095 /* Pods-vibondar2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibondar2019_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibondar2019_Example/Pods-vibondar2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD97D0F388F6D8A2E90E070E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D2DD7E02CBB94FBD7411F630 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FA78A0CC044CE89E21E0E813 /* vibondar2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = vibondar2019.podspec; path = ../vibondar2019.podspec; sourceTree = "<group>"; };
+		BD97D0F388F6D8A2E90E070E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D2DD7E02CBB94FBD7411F630 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA78A0CC044CE89E21E0E813 /* vibondar2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vibondar2019.podspec; path = ../vibondar2019.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				4931996721FB479C0034AA63 /* article.xcdatamodeld */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for vibondar2019 */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -266,15 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-vibondar2019_Example-checkManifestLockResult.txt",
 			);
@@ -288,15 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-vibondar2019_Example/Pods-vibondar2019_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/vibondar2019/vibondar2019.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/vibondar2019.framework",
 			);
@@ -310,15 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-vibondar2019_Tests-checkManifestLockResult.txt",
 			);
@@ -336,6 +327,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4931996921FB479C0034AA63 /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +569,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4931996721FB479C0034AA63 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4931996821FB479C0034AA63 /* article.xcdatamodel */,
+			);
+			currentVersion = 4931996821FB479C0034AA63 /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

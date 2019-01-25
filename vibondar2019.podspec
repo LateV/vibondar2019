@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'vibondar2019'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of vibondar2019.'
-
+  s.summary          = 'This is day 08 of Piscine Swift IOS'
+  s.swift_version    = '3.2'
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'This is day 08 of Piscine Swift IOS'
                        DESC
 
   s.homepage         = 'https://github.com/LateV/vibondar2019'

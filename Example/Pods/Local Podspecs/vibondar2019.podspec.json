@@ -1,0 +1,22 @@
+{
+  "name": "vibondar2019",
+  "version": "0.1.0",
+  "summary": "A short description of vibondar2019.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LateV/vibondar2019",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LateV": "coulraven@ukr.net"
+  },
+  "source": {
+    "git": "https://github.com/LateV/vibondar2019.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "vibondar2019/Classes/**/*"
+}
