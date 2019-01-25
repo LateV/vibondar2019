@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'vibondar2019_Example' do
+  pod 'vibondar2019', :path => '../'
+
+  target 'vibondar2019_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
